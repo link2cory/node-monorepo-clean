@@ -1,7 +1,7 @@
 {
-  "name": "node-tdd",
+  "name": "@my-project-scope/domain",
   "version": "0.0.1",
-  "description": "Node TDD boilerplate",
+  "description": "domain code for myProject which depends on nothing",
   "main": "index.js",
   "author": "Cory Perkins <link2cory@gmail.com>",
   "license": "MIT",
