@@ -17,6 +17,8 @@
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.8.0",
+    "commitizen": "^4.2.2",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "^7.6.0",
     "eslint-config-airbnb-typescript": "^9.0.0",
     "eslint-config-prettier": "^6.11.0",
@@ -31,7 +33,13 @@
   },
   "husky": {
     "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
       "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }
