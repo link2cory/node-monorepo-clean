@@ -27,19 +27,26 @@
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.5",
-    "husky": "^4.2.5",
+    "husky": "^4.3.0",
     "lerna": "^3.21.0",
+    "lint-staged": "^10.5.1",
     "pretty-quick": "^2.0.1"
   },
   "husky": {
     "hooks": {
       "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "lint-staged"
     }
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "lint-staged": {
+    "./packages/**/*.ts": [
+      "prettier --write",
+      "eslint packages/**/*.ts --fix-dry-run"
+    ]
   }
 }
