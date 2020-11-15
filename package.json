@@ -12,6 +12,7 @@
     "version": "lerna version -a",
     "changed": "lerna changed -a",
     "test": "lerna run test",
+    "test:watch": "lerna run --parallel test -- --watch --colors",
     "pretty": "prettier --write ."
   },
   "devDependencies": {
