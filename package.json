@@ -45,7 +45,7 @@
   "lint-staged": {
     "*.ts": [
       "prettier --write",
-      "eslint --fix-dry-run",
+      "eslint --fix-dry-run --max-warnings 0",
       "jest --bail --findRelatedTests"
     ]
   }
