@@ -44,9 +44,10 @@
     }
   },
   "lint-staged": {
-    "./packages/**/*.ts": [
+    "*.ts": [
       "prettier --write",
-      "eslint packages/**/*.ts --fix-dry-run"
+      "eslint --fix-dry-run",
+      "jest --bail --findRelatedTests"
     ]
   }
 }
