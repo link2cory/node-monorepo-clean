@@ -1,6 +1,6 @@
 {
   "name": "@my-project-scope/domain",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "domain code for myProject which depends on nothing",
   "main": "index.js",
   "author": "Cory Perkins <link2cory@gmail.com>",

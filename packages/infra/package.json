@@ -1,6 +1,6 @@
 {
   "name": "@my-project-scope/infra",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "infrastructure that depends on the domain",
   "main": "index.js",
   "author": "Cory Perkins <link2cory@gmail.com>",
@@ -19,6 +19,6 @@
     "typescript": "^4.0.5"
   },
   "dependencies": {
-    "@my-project-scope/domain": "^0.1.0"
+    "@my-project-scope/domain": "^0.1.1"
   }
 }
