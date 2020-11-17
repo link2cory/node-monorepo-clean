@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "lerna run dev",
     "bootstrap": "lerna bootstrap",
-    "test": "lerna run test",
+    "test": "lerna run test --parallel -- --colors",
     "test:watch": "lerna run --parallel test -- --watch --colors",
     "pretty": "prettier --write ."
   },
