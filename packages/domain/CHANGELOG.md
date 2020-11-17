@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/link2cory/node-monorepo-clean/compare/@my-project-scope/domain@0.1.0...@my-project-scope/domain@0.2.0) (2020-11-17)
+
+
+### Features
+
+* **domain:** add diff feature ([276d712](https://github.com/link2cory/node-monorepo-clean/commit/276d7120b7bbdf509f7d6f2b578b512a4f4733fd))
+
+
+
+
+
 # [0.1.0](https://github.com/link2cory/node-monorepo-clean/compare/@my-project-scope/domain@0.0.3...@my-project-scope/domain@0.1.0) (2020-11-17)
 
 
