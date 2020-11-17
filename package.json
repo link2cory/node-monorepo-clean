@@ -11,7 +11,8 @@
     "bootstrap": "lerna bootstrap",
     "test": "lerna run test --parallel -- --colors",
     "test:watch": "lerna run --parallel test -- --watch --colors",
-    "pretty": "prettier --write ."
+    "pretty": "prettier --write .",
+    "postversion": "$PWD/publish-split.sh"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.7.0",
